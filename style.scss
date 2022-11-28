@@ -1,0 +1,36 @@
+.season1{
+    height: 500px;
+    background-color: cyan;
+    
+    .all-month{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+        .month{
+            width: 45%;
+            height: 100px;
+            background-color: black;
+            margin-top: 50px;
+            
+        }
+        .active{
+            display: block;
+        }
+    }  
+}
+
+.season2{
+    height: 500px;
+    background-color: cyan;
+}
+.season3{
+    height: 500px;
+    background-color: cyan;
+    margin-top: 15px;
+}
+.season4{
+    height: 500px;
+    background-color: cyan;
+    margin-top: 15px;
+}

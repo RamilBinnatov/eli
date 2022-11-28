@@ -1,0 +1,47 @@
+.season1 {
+  height: 500px;
+  background-color: cyan;
+}
+
+.season1 .all-month {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.season1 .all-month .month {
+  width: 45%;
+  height: 100px;
+  background-color: black;
+  margin-top: 50px;
+}
+
+.season1 .all-month .active {
+  display: block;
+}
+
+.season2 {
+  height: 500px;
+  background-color: cyan;
+}
+
+.season3 {
+  height: 500px;
+  background-color: cyan;
+  margin-top: 15px;
+}
+
+.season4 {
+  height: 500px;
+  background-color: cyan;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
