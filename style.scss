@@ -1,36 +1,120 @@
 .season1{
     height: 500px;
     background-color: cyan;
+    position: relative;
     
-    .all-month{
-        display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-        .month{
-            width: 45%;
-            height: 100px;
-            background-color: black;
-            margin-top: 50px;
-            
-        }
-        .active{
-            display: block;
-        }
-    }  
+    .month1{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 50px;  
+        position: absolute;
+        top: 10px;
+    }
+    .month2{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 125px;
+        float: right;
+
+    }   
+    .month3{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 50px;
+        position: absolute;
+        bottom: 50px;
+    }
 }
 
 .season2{
     height: 500px;
     background-color: cyan;
+    position: relative;
+    .month1{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 50px;  
+        position: absolute;
+        top: 10px;
+    }
+    .month2{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 125px;
+        float: right;
+
+    }   
+    .month3{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 50px;
+        position: absolute;
+        bottom: 50px;
+    }
 }
 .season3{
     height: 500px;
     background-color: cyan;
     margin-top: 15px;
+    position: relative;
+    .month1{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 50px;  
+        position: absolute;
+        top: 10px;
+    }
+    .month2{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 125px;
+        float: right;
+
+    }   
+    .month3{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 50px;
+        position: absolute;
+        bottom: 50px;
+    }
 }
 .season4{
     height: 500px;
     background-color: cyan;
     margin-top: 15px;
+    position: relative;
+    .month1{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 50px;  
+        position: absolute;
+        top: 10px;
+    }
+    .month2{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 125px;
+        float: right;
+
+    }   
+    .month3{
+        width: 50%;
+        height: 150px;
+        border-style: solid;  
+        margin-top: 50px;
+        position: absolute;
+        bottom: 50px;
+    }
 }
